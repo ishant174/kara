@@ -1,0 +1,83 @@
+nav .logo img{
+width: 85px;
+object-fit: contain;
+margin: 0 10px;
+height: 49px;
+
+}
+nav .logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+nav{
+    padding: 1rem 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(19.25px);
+
+}
+
+nav .logo h1{
+
+
+width: 103px;
+height: 36px;
+font-family: 'Clash Display Variable';
+font-style: normal;
+font-weight: 600;
+font-size: 33.1268px;
+line-height: 35px;
+
+color: #0E1216;
+
+
+}
+
+nav .menus ul{
+    display: flex;
+}
+nav .menus ul li{
+    margin:10px;
+}
+
+nav .menus ul li a{
+    /* Value */
+
+width: 53px;
+height: 20px;
+
+font-family: 'Clash Display Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #0E1216;
+
+
+}
+
+nav .connect-btn button{
+
+border-radius: 20px;
+padding: 10px 12px;
+border: none;
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #0E1216;
+
+
+}

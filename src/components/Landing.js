@@ -18,25 +18,33 @@ function Landing() {
                             <p>#education</p>
                         </div>
                     </div>
-                    {/* <div className='animation_region'>
+                    <div className='animation_region'>
                         <div className='anim'>
-                            <p>Region</p>
-                            <p>Latin America</p>
+                            <div className="inner_anim">
+                            <p className='top_hide'>Region</p>
+                            <p className='special_hide'>Latin America</p>
+                            </div>
+                          
                         </div>
                         <div className='anim'>
-                            <p>Web 3 Category</p>
-                            <p>Web3 Founder</p>
+                        <div className="inner_anim">
+                            <p className='top_hide'>Web 3 Category</p>
+                            <p className='special_hide'>Web3 Founder</p>
+                        </div>
                         </div>
                         <div className='anim'>
-                            <p>Organization Affiliations</p>
-                            <p>Web3 Founder</p>
+                        <div className="inner_anim">
+                            <p className='top_hide'>Organization Affiliations</p>
+                            <p className='special_hide'>Web3 Founder</p>
+                        </div>
                         </div>
                         <div className='anim'>
-                            <p>Community Affiliations</p>
-                            <p>Crypto Female, web 3 ladies, Web 3 Kirgizstan</p>
+                        <div className="inner_anim">
+                            <p className='top_hide'>Community Affiliations</p>
+                            <p className='special_hide'>Crypto Female, web 3 ladies, Web 3 Kirgizstan</p>
                         </div>
-
-                    </div> */}
+                        </div>
+                    </div>
                 </div>
 
                 <div className='landing_img'>
@@ -47,16 +55,7 @@ function Landing() {
 
                 </div>
             </div>
-            {/* <div className='marquee_section'>
-                    <h1>~ Collaborative web3-4 </h1>
-                    <h1>~ Focused</h1>
-                    <h1>~ decentralizing currencies & technologies</h1>
-
-                    <h1>~ Collaborative web3-4 ecosystem growth</h1>
-                    <h1>~ Focused</h1>
-                    <h1>~ decentralizing currencies & technologies</h1>
-                    
-                </div> */}
+            
 <div className="marquee">
   <div className="track">
     <div className="content">
