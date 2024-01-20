@@ -6,18 +6,21 @@ import Vision from './components/Vision';
 import CV from './components/CV';
 import Available from './components/Available';
 import Navbar from './components/Navbar';
+import React, { Component } from 'react';
 
-function App() {
+
+
+function App(props) {
+  const { title, content } = props
+  console.log(props.title)
   return (
     <div className="App">
       <Navbar/>
-      <Landing/>
+      <Landing name={props.title}/>
       <Value/>
-<Vision/>
+      <Vision/>
      <CV/>
-     <Available/>
-      {/* available for  */}
-      {/* foooter  */}
+     <Available/> 
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import './landing.css'
 
-function Landing() {
+function Landing(props) {
+    const { name} = props
     return (
         <div>
             <div className='landing_innerContainer'>
                 <div className='landing_info'>
-                    <h1 className='landing_heading'>I’m <span className='special_heading'>Kara</span>, & I create equitable platforms for the new economy.</h1>
+                    <h1 className='landing_heading'>I’m <span className='special_heading'>{props.name}</span>, & I create equitable platforms for the new economy.</h1>
                     <div className='stand_box'>
                         <span className='border'></span>
                         <p className='standbox_title'>WHAT I STAND FOR:</p>
