@@ -23,7 +23,6 @@ function Rout() {
     let dynamicComponents = DynamicComponentsData;
 
   return (
-
     <Router>
     <Routes>
       {dynamicComponents.map((route) => (
