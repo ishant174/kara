@@ -5,6 +5,20 @@
     margin:2rem auto;
     align-items: center;
   }
+
+  #landing_container::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+ background: linear-gradient(187deg, #F5F5F5 5.53%, #A7F8AF 24.96%, #B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%);
+
+filter: blur(242.59291076660156px);
+  left: 0;
+
+  }
+
   .track{
     width: 100%;
   }
@@ -112,16 +126,19 @@ opacity: 0.8;
 }
 
 .landing_img {
-    background: url(https://kara.siher.eth.limo/images/karafuture.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     height: 575px;
     width: 491px;
-
-    border-radius: 20px;
     position: relative;
+
+
 }
-    
+.landing_img img{
+    width: 100%;
+    border-radius: 24px;
+}
 
 .landing_img .img_name{
 
@@ -139,6 +156,7 @@ background: #FFFFFF;
 border-radius: 13.3503px;
 
 }
+
 .landing_img .img_name p{
 
 font-family: 'Manrope';
@@ -196,7 +214,7 @@ letter-spacing: 0.06em;
 text-align: left;
     text-transform: uppercase;
     /* -webkit-text-stroke-width: 0.1px; */
-    animation: marquee 10s linear infinite;
+    animation: marquee .5s linear infinite;
 }
 
 /* 
@@ -214,7 +232,7 @@ text-align: left;
     overflow-x: hidden;
   }
   .marquee .content{
-    animation: marquee 32s linear infinite;
+    animation: marquee 8s linear infinite;
     display: flex;
   }
   .marquee .content h1{

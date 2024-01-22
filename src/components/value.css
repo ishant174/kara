@@ -1,6 +1,6 @@
 
 .value_heading{
-width: 237px;
+/* width: 237px; */
 height: 54px;
 font-family: 'Clash Display Variable';
 font-style: normal;
@@ -143,12 +143,10 @@ margin: 0 10px;
     height: 100%;
     position: absolute;
     z-index: -1;
-   left: 0;
-  
-  
-  
+   left: 0;  
   filter: blur(242.593px);
-  background: linear-gradient(187.3deg, #F5F5F5 5.53%, #A7F8AF 24.96%, #B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%);
+  background: linear-gradient(187.3deg, #FEE2C3 5.53%, #FEE2C3 24.96%,#B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%);
+  /* background: linear-gradient(187.3deg, #F5F5F5 5.53%, #A7F8AF 24.96%, #B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%); */
   
   }
 

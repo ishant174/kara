@@ -1,36 +1,23 @@
-.vision_container::before{
-    content:'';
-   width: 100%;
-   /* height: 100%; */
-    height: 480px;
-    left: 0;
-    z-index: -1;
-    position: absolute;
 
-
-    /* background: linear-gradient(180deg, #EEE2FA -17.18%, #FFE4C4 6.64%, #F2EFFE 24.09%, #F2F1FF 54.49%, #7DF4D7 82.5%); */
-
-    /* background: linear-gradient(180deg, #EEE2FA -17.18%, #FFE4C4 6.64%, #F2EFFE 24.09%, #F2F1FF 54.49%, #7DF4D7 82.5%); */
-
-background: linear-gradient(180deg, #D1E6FB 5%, #C5E1FC 0.01%, #D1F3FB 36.4%, #DAD5FF 100%);
-/* filter: blur(111.514px); */
-border-radius: 40px;
-
-}
 .vision_container{
+    background: url(../landing_bg.png);
+    background-position: center;
+    background-size: cover ;
+    /* height: 480px; */
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* background: #D1E6FB; */
 border-radius: 40px;
-    padding: 2rem;
-    height: 480px;
+    /* padding: 3rem 2rem; */
+    /* height: 480px; */
 }
 .vision_container h1{
     margin: 2rem 0;
-    
-width: 231px;
+    text-align: left;
+/* width: 231px; */
 height: 54px;
 
 font-family: 'Clash Display Variable';
@@ -46,7 +33,7 @@ color: #0E1216;
 }
 .vision_container .inner-container{
     width: 90%;
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 .vision_container p{
   text-align: left;

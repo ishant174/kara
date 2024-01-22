@@ -4,7 +4,7 @@ import './landing.css'
 function Landing(props) {
     const { name} = props
     return (
-        <div>
+        <div id='landing_container'>
             <div className='landing_innerContainer'>
                 <div className='landing_info'>
                     <h1 className='landing_heading'>I’m <span className='special_heading'>{props.name}</span>, & I create equitable platforms for the new economy.</h1>
@@ -49,6 +49,7 @@ function Landing(props) {
                 </div>
 
                 <div className='landing_img'>
+                    <img src="https://kara.siher.eth.limo/images/karafuture.png" alt="" />
                     <div className='img_name'>
                         <p>Kara Howard</p>
                         <small>(SHE/HER)</small>
@@ -56,8 +57,9 @@ function Landing(props) {
 
                 </div>
             </div>
-            
-<div className="marquee">
+
+          <div className="marquee_outer_wrapper">
+          <div className="marquee">
   <div className="track">
     <div className="content">
     <h1>~ Collaborative web3-4 </h1>
@@ -70,6 +72,8 @@ function Landing(props) {
     </div>
   </div>
 </div>
+            </div>  
+
 
         </div>
     )

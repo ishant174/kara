@@ -5,20 +5,27 @@ import './navbar.css'
 
 function Navbar() {
   const[btnstate, setbtn] = useState(false);
+  const[navState, setNav] = useState(false);
 
   function handelClick(){
       setbtn(btnstate=>!btnstate);
   }
+//   function hideNav(){
+//     setbtn(navState=>!navState);
+// }
+
+
   let checkClass = btnstate ? 'active':null;
   return (
     <div>
         <nav className={`nav ${checkClass}`}>
-            <div className="logo">
+          <div className="nav_wrapper">
+          <div className="logo">
                 <img src={eye} alt="" />
                 <h1>SI HER</h1>
             </div>
 
-            <div className="menus">
+            <div className="menus"  onClick={handelClick}>
                     <ul>
                         <li><a href="#value">Value</a></li>
                         <li><a href="#media">my media</a></li>
@@ -36,6 +43,8 @@ function Navbar() {
               <span></span>
               <span></span>
             </div>
+          </div>
+          
         </nav>
     
     </div>

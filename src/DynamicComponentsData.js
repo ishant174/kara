@@ -1,6 +1,6 @@
 let components = [{
     "index":1,
-    "title": "Roshan",
+    "title": "KARA",
     "content": "Rendered Home Component",
     "url": "/"
 }, {

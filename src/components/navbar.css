@@ -27,11 +27,15 @@ nav {
     top:0;
     z-index:9;
 }
-
+.nav_wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 nav .logo h1{
 
 
-width: 103px;
+/* width: 103px; */
 height: 36px;
 font-family: 'Clash Display Variable';
 font-style: normal;

@@ -1,7 +1,8 @@
 .cv_container h1{
 
 margin: 2rem 0;
-width: 343px;
+/* width: 343px; 00*/
+text-align: left;
 height: 54px;
 
 font-family: 'Clash Display Variable';
@@ -17,7 +18,7 @@ color: #0C0C0C;
 
 .cv_container{
     width: 90%;
-    margin: auto;
+    margin: 5rem auto;
 }
 .cv_container .date{
 text-align: left;
@@ -40,8 +41,12 @@ color: #AD97FF;
     position: absolute;
     z-index: -1;
   filter: blur(242.593px);
-  background: linear-gradient(187.3deg, #F5F5F5 5.53%, #A7F8AF 24.96%, #B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%);
+  background-color:  #F5F5F5;
+  
+  /* background: linear-gradient(187.3deg, #F5F5F5 5.53%, #A7F8AF 24.96%, #B4E6F6 37.28%, #FEE2C3 67.65%, #AB8DEC 103.51%); */
 }
+
+
 
 .cv_container .info{
 
