@@ -1,5 +1,5 @@
 import React from 'react'
-import eye from '../eye.png'
+import eye from '../../Images/eye.png'
 import './available.css'
 function Available() {
   return (

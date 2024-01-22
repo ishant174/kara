@@ -1,11 +1,12 @@
 
-import './App.css';
+import '../CSS/App.css';
 import Landing  from '../components/Landing/Landing';
 import Value from '../components/Value/Value';
 import Vision from '../components/Vision/Vision';
 import CV from '../components/CV/CV';
 import Available from '../components/Available/Available';
 import Navbar from '../components/Navbar/Navbar';
+
 import {
     BrowserRouter as Router,
     Routes,

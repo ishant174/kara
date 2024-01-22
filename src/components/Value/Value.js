@@ -1,7 +1,7 @@
 import React from 'react'
 import './value.css'
-import watermark from '../watermark.png'
-import rupay from '../rupay.png'
+import watermark from '../../Images/watermark.png'
+import rupay from '../../Images/rupay.png'
 
 function Value() {
     return (

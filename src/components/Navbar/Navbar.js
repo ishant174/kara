@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import eye from '../eye_logo.png'
+import eye from '../../Images/eye_logo.png'
 import './navbar.css'
 
 function Navbar() {
