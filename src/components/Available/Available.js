@@ -43,7 +43,10 @@ function Available() {
         </div>
 
         <div className="aval_btn">
-            <p>This site has been built by Si3 in support of the decentralized and democratized web.</p>
+          <a href="https://www.si3.space/">
+          <p>This site has been built by Si3 in support of the decentralized and democratized web.</p>
+          </a>
+            
         </div>
 
 

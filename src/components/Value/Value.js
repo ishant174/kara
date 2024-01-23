@@ -3,6 +3,7 @@ import "./value.css";
 import watermark from "../../Images/watermark1.svg";
 import rupay from "../../Images/rupay.png";
 import power from '../../Images/Powered By.svg'
+import ReactPlayer from 'react-player'
 
 function Value(props) {
   const allContent = props.dynamicContent;
@@ -27,10 +28,8 @@ function Value(props) {
             </small>
           </div>
           <div className="video">
-            <img
-              src="https://kara.siher.eth.limo/images/karafuture.png"
-              alt=""
-            />
+       
+          <iframe src="https://lvpr.tv?v=33e86xt51h1f718x" frameborder="0" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture;cover" sandbox="allow-same-origin allow-scripts" width="100" height="100"></iframe>
           </div>
         </div>
       </div>

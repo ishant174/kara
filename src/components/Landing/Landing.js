@@ -69,11 +69,16 @@ function Landing(props) {
         <div className="marquee">
           <div className="track">
             <div className="content">
-              <h1>~ Self-Realization </h1>
-              <h1>~ Emerging Market Opportunities</h1>
-              <h1>~ DECENTRALIZING CURRENCIES & TECHNOLOGIES</h1>
-              <h1>~ COLLABORATIVE WEB3-4 ECOSYSTEM GROWTH</h1>
-              <h1>~ Inclusive Platforms</h1>
+              <h1>Self-Realization </h1>
+              <h1>~</h1>
+              <h1>Emerging Market Opportunities</h1>
+              <h1>~</h1>
+              <h1>DECENTRALIZING CURRENCIES & TECHNOLOGIES</h1>
+              <h1>~</h1>
+              <h1>COLLABORATIVE WEB3-4 ECOSYSTEM GROWTH</h1>
+              <h1>~</h1>
+              <h1>Inclusive Platforms</h1>
+              <h1>~</h1>
               
             </div>
           </div>
