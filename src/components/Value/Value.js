@@ -46,9 +46,9 @@ function Value(props) {
       </div>
       <div className="pay_btns">
         <button className="support">Support Kara In Crypto </button>
-        <button className="Rupay">
+        {/* <button className="Rupay">
           <img src={rupay} alt="" />
-        </button>
+        </button> */}
       </div>
     </div>
   );

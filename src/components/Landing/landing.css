@@ -229,6 +229,7 @@
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .track {
   position: absolute;
@@ -268,6 +269,9 @@
 .anim p:not(.special_hide):hover {
     transform: translateY(-25px);
 } */
+.hover_active{
+  transform: translateY(-28px);
+}
 .inner_anim:hover {
   transform: translateY(-28px);
 }

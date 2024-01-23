@@ -2,7 +2,7 @@ import React from "react";
 import "./cv.css";
 function CV(props) {
   const allContent = props.dynamicContent;
-  const sortedKeys = Object.keys(allContent.cv_highlights).sort();
+  const sortedKeys = Object.keys(allContent.cv_highlights).sort().reverse();
 
 
   return (

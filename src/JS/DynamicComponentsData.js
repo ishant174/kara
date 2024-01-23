@@ -4,7 +4,7 @@ let components = [
     title: "KARA",
     name: "Kara Howard",
     heading: ", & I CREATE EQUITABLE PLATFORMS FOR THE NEW ECONOMY.",
-    hashtags: "COLLOBORATION,EQUITY,IMPACT,DECENTRALIZATION,EDUCATION",
+    hashtags: "COLLABORATION,EQUITY,IMPACT,DECENTRALIZATION,EDUCATION",
     categories: {
       Region: "Latin America",
       "Web 3 Category": "Web3 Founder",
@@ -18,7 +18,7 @@ let components = [
 
     },
     value:
-      "My career began as an Equity Research analyst on Wall St. I started the MBA program at NYU in the Fall of 2008, right as the market crashed, with Occupy Wall St. protests happening outside our campus doors. As often happens, times of crises create opportunity and I shifted my career focus from finance to marketing & entrepreneurship. I began my entrepreneurial journey with ups and downs and great learning - most importantly, discovering my passion and purpose in supporting women in elevating their voices and professional and personal success .I have led and participated in women-related communities in investing, startups, technology, AI, futurism, product and data science. I have placed over 350 women in speaking opportunities and experience shared value and fulfillment when I see women stepping into their full potential. I bring the value of ten years in finance, and ten years of community architecting & growth marketing, to SI HER as it`s platform creator. And my exploration in Equity Research continues.",
+      "My career began as an Equity Research analyst on Wall St. I started the MBA program at NYU in the Fall of 2008, right as the market crashed, with Occupy Wall St. protests happening outside our campus doors. As often happens, times of crises create opportunity and I shifted my career focus from finance to marketing & entrepreneurship. I began my entrepreneurial journey with ups and downs and great learning - most importantly, discovering my passion and purpose in supporting women in elevating their voices and professional and personal success. I have led and participated in women-related communities in investing, startups, technology, AI, futurism, product and data science. I have placed over 350 women in speaking opportunities and experience shared value and fulfillment when I see women stepping into their full potential. I bring the value of ten years in finance, and ten years of community architecting & growth marketing, to SI HER as it`s platform creator. And my exploration in Equity Research continues.",
     vision:
       "I envision a near-term future that is operating with values based on inclusion, equity, and decentralized decision-making. I am hopeful to support in creating platforms that streamline cooperation and accelerate our human potential.",
     cv_highlights: {

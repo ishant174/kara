@@ -64,9 +64,23 @@
 
 
 @media only screen and (max-width: 900px) {
-    body{
-        background: linear-gradient(184deg, #F5F5F5 16.55%, rgba(245, 245, 245, 0.00) 83.96%), url(https://s3-alpha-sig.figma.com/img/f647/60af/9971e777aa0372d8fecdfcf50bbb2913?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=paKXIVshVyETM54Ek6qA0M8CHhNSftqGD4nPuMRe5yUH-r~fnw6UiUphIJ8bqTrxx5C0PcdJHtk3I~BJD4UKcj9mHK~kSXuJUbEt4kZ-fHv1V5TEqctu2d7Gvr2R7TqWbpVjDtQS4G1dKj96yOasMCDwsQoUBBy0JMtVhHAqudDKNoK49idBawEJpRJoo4Agn-6LpkmZfJLKtPH9Ryidd28tMWu7A9Oe4RbfFLlowXDlnL05Ms7AUlj4oa39DrI6c6z2IyYi-a6WkHuRR7xH4JmfUcuPGXoGg8h77SPY748sjooEnAlk06dHWs6SDNMA44B9iFRGDRfbkFK7ULZVsA__), lightgray -670.521px -101px / 443.857% 115.577% no-repeat;
+    .footer{
+        border-top: none;
+    }
+    body::before{
+        content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  left: 0;
 
+        background: linear-gradient(184deg, #F5F5F5 16.55%, rgba(245, 245, 245, 0.00) 83.96%), url(https://s3-alpha-sig.figma.com/img/f647/60af/9971e777aa0372d8fecdfcf50bbb2913?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=paKXIVshVyETM54Ek6qA0M8CHhNSftqGD4nPuMRe5yUH-r~fnw6UiUphIJ8bqTrxx5C0PcdJHtk3I~BJD4UKcj9mHK~kSXuJUbEt4kZ-fHv1V5TEqctu2d7Gvr2R7TqWbpVjDtQS4G1dKj96yOasMCDwsQoUBBy0JMtVhHAqudDKNoK49idBawEJpRJoo4Agn-6LpkmZfJLKtPH9Ryidd28tMWu7A9Oe4RbfFLlowXDlnL05Ms7AUlj4oa39DrI6c6z2IyYi-a6WkHuRR7xH4JmfUcuPGXoGg8h77SPY748sjooEnAlk06dHWs6SDNMA44B9iFRGDRfbkFK7ULZVsA__), lightgray -670.521px -101px / 443.857% 115.577% no-repeat;
+        background-position: bottom;
+
+    }
+    nav .logo {
+        margin-left: -2rem;
     }
     .landing_img::before {
         content: '';
@@ -130,18 +144,25 @@
         flex-direction: column;
         width: 95%;
         margin: 5rem auto;
+        margin-bottom: 1rem;
     }
-
+    div#connect{
+        padding-top: 0;
+    }
+    .marquee{
+        height: 150px;
+        margin-top: 4rem;
+    }
+    .avl_banner{
+        margin: 3rem 0;
+    }
     .landing_heading {
         /* width: 342px; */
         height: auto;
         font-size: 36px;
     }
 
-    div#vision {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0
-    }
+   
 
     .avl_desc p {
         padding: 0 15px 0 16px;
@@ -388,9 +409,9 @@ nav.active .menu-toggler span:nth-child(3) {
         display: block;
     }
 
-    .landing_innerContainer * {
+    /* .landing_innerContainer * {
         z-index: -1;
-    }
+    } */
 
 }
 
