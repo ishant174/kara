@@ -2,7 +2,7 @@ import React from "react";
 import "./landing.css";
 
 function Landing(props) {
-  const { name } = props;
+  // const { name } = props;
   const allContent = props.dynamicContent;
 
   const hashtags = allContent.hashtags.split(",");
@@ -56,7 +56,7 @@ function Landing(props) {
         <div className="landing_img">
           <img src="https://kara.siher.eth.limo/images/karafuture.png" alt="" />
           <div className="img_name">
-            <p>Kara Howard</p>
+            <p>{allContent.name}</p>
             <small>(SHE/HER)</small>
           </div>
         </div>

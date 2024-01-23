@@ -11,11 +11,13 @@ import { NavLink } from "react-router-dom";
 import App from "./App";
 import React, { Fragment } from "react";
 import DynamicComponentsData from "./DynamicComponentsData";
+import Error from "../components/404/Error";
 
 function Rout() {
   let dynamicComponents = DynamicComponentsData;
 
   return (
+    
     <Router>
       <Routes>
         {dynamicComponents.map((route) => (
@@ -25,7 +27,15 @@ function Rout() {
             exact
             element={<App dynamicData={route} title={route.title} />}
           />
+
         ))}
+        <Route
+          
+            path="*"
+            
+            element={<Error/>}
+          />
+
       </Routes>
     </Router>
   );

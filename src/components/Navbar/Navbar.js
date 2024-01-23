@@ -6,14 +6,16 @@ import './navbar.css'
 function Navbar() {
   const[btnstate, setbtn] = useState(false);
   const[navState, setNav] = useState(false);
-
+  const width = window.innerWidth
   function handelClick(){
       setbtn(btnstate=>!btnstate);
-  }
-//   function hideNav(){
-//     setbtn(navState=>!navState);
-// }
 
+  }
+
+  function handelNav(){
+    setbtn(btnstate => false);
+
+}
 
   let checkClass = btnstate ? 'active':null;
   return (
@@ -25,7 +27,7 @@ function Navbar() {
                 <h1>SI HER</h1>
             </div>
 
-            <div className="menus"  onClick={handelClick}>
+            <div className="menus" onClick={handelNav} >
                     <ul>
                         <li><a href="#value">Value</a></li>
                         <li><a href="#media">my media</a></li>
@@ -38,7 +40,7 @@ function Navbar() {
             <div className="connect-btn">
                     <button>Connect Your Wallet</button>
             </div>
-            <div className='menu-toggler' onClick={handelClick}>
+            <div className='menu-toggler' onClick={handelClick} >
               <span></span>
               <span></span>
               <span></span>

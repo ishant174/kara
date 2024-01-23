@@ -1,7 +1,8 @@
 import React from "react";
 import "./value.css";
-import watermark from "../../Images/watermark.png";
+import watermark from "../../Images/watermark1.svg";
 import rupay from "../../Images/rupay.png";
+import power from '../../Images/Powered By.svg'
 
 function Value(props) {
   const allContent = props.dynamicContent;
@@ -21,7 +22,8 @@ function Value(props) {
               <span className="light_line"></span>
             </div>
             <small>
-              Powered By <img src={watermark} alt="" />
+           
+               <img src="https://kara.siher.eth.limo/images/Powered%20by%20Livepeer.png" alt="" />
             </small>
           </div>
           <div className="video">
@@ -34,9 +36,13 @@ function Value(props) {
       </div>
 
       <div className="value_links">
-        <a href=""> WeAreSi3</a>
+      {Object.entries(allContent.links).map(([key, value], index) => (
+        <a href={value}> {key}</a>
+
+))}
+        {/* <a href=""> WeAreSi3</a>
         <a href="">Unlocking NFT´s for Meta Impact</a>
-        <a href="">Diversity in the New Economy</a>
+        <a href="">Diversity in the New Economy</a> */}
       </div>
       <div className="pay_btns">
         <button className="support">Support Kara In Crypto </button>

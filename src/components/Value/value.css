@@ -12,7 +12,9 @@
   color: #0e1216;
   margin-bottom: 1.5rem;
 }
-
+.value_media small img{
+  height: 12px;
+}
 .value_container p {
   text-align: left;
 

@@ -115,10 +115,13 @@
         font-size: 20px;
     }
 
-    .Rupay {
-        display: none;
+    nav .logo img{
+        height: 35px;
+        width: 50px;
     }
-
+    nav .logo h1{
+        font-size: 20.808px;
+    }
     .landing_img {
         transform: rotate(-3.218deg);
     }
@@ -164,7 +167,7 @@
     }
 
     .track {
-        background-color: black !important;
+        background: black !important;
     }
 
     .stand_box {
@@ -257,9 +260,9 @@
     }
 
     .Rupay img {
-        width: 100%;
-        height: 100px;
-        object-fit: cover;
+        /* width: 100%;
+        height: 100px; */
+        object-fit: contain;
         border-radius: 20px;
     }
 
@@ -268,6 +271,7 @@
     }
 
     .pay_btns .support {
+        /* height: 100px; */
         width: 100%;
         margin: 10px 0;
     }
@@ -402,4 +406,21 @@ nav.active .menu-toggler span:nth-child(3) {
 .marquee_outer_wrapper{
     width: 100%;
     overflow: hidden;
+}
+
+.marquee .avl_banner .content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.available_container .marquee .content
+{
+    align-items: center;
+}
+.available_container .marquee .content h1{
+    margin: 0 ;
+}
+
+#root{
+    overflow-x: hidden;
 }

@@ -6,7 +6,10 @@ function Available() {
     <div className='available_container' id='connect'>
         <h1 className="available_heading">I’m available for</h1>
 
-        <div className="avl_banner">
+        {/* <div className="avl_banner"> */}
+        <div className="marquee">
+          <div className="avl_banner">
+            <div className="content">
             <img src={eye} alt="" />
             <h1>speaking</h1>
             <img src={eye} alt="" />
@@ -15,6 +18,23 @@ function Available() {
             <h1>Collabs</h1>
             <img src={eye} alt="" />
             <h1>speaking</h1>
+
+            <img src={eye} alt="" />
+            <h1>speaking</h1>
+            <img src={eye} alt="" />
+            <h1>Advising</h1>
+            <img src={eye} alt="" />
+            <h1>Collabs</h1>
+            <img src={eye} alt="" />
+            <h1>speaking</h1>
+            
+            </div>
+
+            
+          {/* </div> */}
+        </div>
+
+           
             
         </div>
 
