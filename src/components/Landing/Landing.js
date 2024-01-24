@@ -1,12 +1,10 @@
 import React from "react";
 import "./landing.css";
-import { useState } from 'react'
-import girl from '../../Images/girl.png'
+import { useState } from "react";
+import girl from "../../Images/girl.png";
 function Landing(props) {
   // const { name } = props;
   const allContent = props.dynamicContent;
- 
-
 
   const hashtags = allContent.hashtags.split(",");
   //   const generateCategory = () => {
@@ -30,8 +28,8 @@ function Landing(props) {
       <div className="landing_innerContainer">
         <div className="landing_info">
           <h1 className="landing_heading">
-            I’m <span className="special_heading">{props.name}</span>,<br/>
-            {allContent.heading.replace(",","")}
+            I’m <span className="special_heading">{props.name}</span>,<br />
+            {allContent.heading.replace(",", "")}
           </h1>
           <div className="stand_box">
             <span className="border"></span>
@@ -45,8 +43,8 @@ function Landing(props) {
           <div className="animation_region">
             {Object.entries(allContent.categories).map(
               ([key, value], index) => (
-                <div className="anim" >
-                  <div className="inner_anim" >
+                <div className="anim">
+                  <div className="inner_anim">
                     <p className="top_hide">{key}</p>
                     <p className="special_hide">{value}</p>
                   </div>
@@ -57,7 +55,7 @@ function Landing(props) {
         </div>
 
         <div className="landing_img">
-          <img src={girl}  />
+          <img src={allContent.userimg} />
           <div className="img_name">
             <p>{allContent.name}</p>
             <small>(SHE/HER)</small>
@@ -79,7 +77,6 @@ function Landing(props) {
               <h1>~</h1>
               <h1>Inclusive Platforms</h1>
               <h1>~</h1>
-              
             </div>
           </div>
         </div>
