@@ -23,7 +23,7 @@ function App(props) {
       <Value dynamicContent={props.dynamicData} />
       <Vision dynamicContent={props.dynamicData} />
       <CV dynamicContent={props.dynamicData} />
-      <Available />
+      <Available dynamicContent={props.dynamicData} />
     </div>
   );
 }

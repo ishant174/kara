@@ -9,7 +9,10 @@
     border: 1.782px solid #FFF;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.00) 100%);
 }
-
+nav .connect-btn button{
+    border-radius: 12px;
+background: #DCD3FE;
+}
 
 @media only screen and (max-width: 1290px) {
     
@@ -67,6 +70,12 @@
     .footer{
         border-top: none;
     }
+    .nav.active .nav_wrapper{
+        /* padding: 1rem 2rem; */
+    }
+   .nav.active .menus ul{
+    margin-top: 1rem;
+   }
     body::before{
         content: '';
     width: 100%;
@@ -79,32 +88,39 @@
         background-position: bottom;
 
     }
-    nav .logo {
-        margin-left: -2rem;
+    nav.nav.active .logo {
+        z-index: 99;
+        /* margin-left: -2rem; */
     }
+    .nav.active .connect-btn {
+        display: block;
+        z-index: 99;
+        position: fixed;
+        top: 30rem;
+    }
+
+    
     .landing_img::before {
         content: '';
     position: absolute;
-    width: 529.268px;
-    height: 529.268px;
+    width: 20px;
+    height: 20px;
     z-index: -1;
         border-radius: 18.601px;
         border: 0.66px solid #FFF;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.00) 100%);
-        width: 342.381px;
-        height: 401.091px;
-        transform: rotate(-5.509deg);
+        /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.00) 100%); */
+        /* transform: rotate(-5.509deg); */
     }
 
     .nav_wrapper {
         position: relative;
-        padding: 1rem 2rem;
+        padding: 1rem;
         display: flex;
         justify-content: start;
-        width: 80%;
+        width: 100%;
         background: #fff;
-        border-bottom-left-radius: 32px;
-        border-bottom-right-radius: 32px;
+        /* border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px; */
         border: 1px solid #c3b3b3;
     }
 
@@ -128,7 +144,9 @@
     .marquee .content h1 {
         font-size: 20px;
     }
-
+    .footer .footer_menu{
+        margin: 1rem 0;
+    }
     nav .logo img{
         height: 35px;
         width: 50px;
@@ -136,8 +154,15 @@
     nav .logo h1{
         font-size: 20.808px;
     }
+    .landing_img img{
+        border-radius: 18px;
+        box-shadow: -5.944px 1.321px 12.284px -8.585px #413F43;
+    }
     .landing_img {
-        transform: rotate(-3.218deg);
+        border-radius: 650px;
+  
+    border-radius: 12px;
+    /* box-shadow: -5.944px 1.321px 12.284px -8.585px #413F43; */
     }
 
     .landing_innerContainer {
@@ -309,6 +334,7 @@
     .newsletter h1 {
         width: auto;
         margin-top: 10px;
+        text-align: center;
     }
 
     .avl_banner h1 {
@@ -360,12 +386,20 @@ nav.active .menus ul {
     /* justify-content: center; */
     padding-top: 2rem;
 }
-
+nav.active .menus ul li {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+nav.active .menus ul li a{
+    width: fit-content;
+}
 nav.active .menus {
     display: block;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 80%;
     background: #fff;
     /* background:#ecf6ee; */
     backdrop-filter: blur(19.25px);
@@ -396,8 +430,8 @@ nav.active .menu-toggler span:nth-child(3) {
 
 @media only screen and (max-width: 900px) {
 
-    nav .menus,
-    nav .connect-btn {
+    nav .menus,.connect-btn
+    {   
         display: none;
     }
 

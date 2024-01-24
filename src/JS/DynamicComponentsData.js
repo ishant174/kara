@@ -33,7 +33,9 @@ let components = [
       2022: "PERSONAL DEVELOPMENT RETREAT",
       2023: "INITIATED SI3 & SI HER TALENT COLLECTIVE",
     },
+    linkeninURL: "https://www.linkedin.com/in/decentralizing/",
     content: "Rendered Home Component",
+    contactEmail: "kara@si-her.live",
     url: "/",
   },
   {
@@ -68,7 +70,9 @@ let components = [
       2023: "SI HER ADVOCATE,WOMEN IN DEFI, DEFI TRAINING COHORT 1,PRODUCT MANAGER- SERCHE",
       2022: "PRODUCT MANAGEMENT TRAINEE, WEB3 LADIES X 0XPOLYGON COHORT III",
     },
+    linkeninURL: "https://www.linkedin.com/in/themultipotentialite/",
     content: "Rendered Test1 Component",
+    contactEmail: "iyanuayo.oo@gmail.com",
     url: "/iyanuayo",
   },
   {
@@ -106,6 +110,8 @@ let components = [
       "1998-2003": "BACHELOR'S DEGREE BUSINESS-MANAGEMENT ECONOMICS",
       "2003-10": "UNIVERSITY PROFESSOR",
     },
+    linkeninURL: "https://www.linkedin.com/in/aimaragarciaonline",
+    contactEmail: "nemerie0x@skiff.com",
     content: "Rendered Test1 Component",
     url: "/AIMARA",
   },
@@ -147,6 +153,7 @@ let components = [
       2022: "JOINED BLOCKCHAIN FOUNDERS GROUP SUPERSTARS INCUBATION PROGRAM",
     },
     content: "Rendered Test1 Component",
+    contactEmail: "alexandra@thrilldlabs.io",
     url: "/alex",
   },
 ];

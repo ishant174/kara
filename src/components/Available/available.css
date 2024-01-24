@@ -80,11 +80,9 @@ gap: 10px;
 width: 480px;
 height: 70px;
 
-background: rgba(255, 255, 255, 0.42);
-border-radius: 50px;
 
 margin: 2rem auto;
-border: 1px solid white;
+
 
 
 
@@ -115,7 +113,7 @@ padding: 2rem 0;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: lowercase;
-
+align-items: center;
 color: #262A2D;
 }
 .newsletter h1{
@@ -123,6 +121,7 @@ color: #262A2D;
 
 /* width: 234px; */
 height: 20px;
+text-align: start;
 
 font-family: 'Clash Display Variable';
 font-style: normal;
@@ -234,3 +233,23 @@ div#connect {
 
 
 
+.footer .footer_menu{
+  border-radius: 12px;
+background: rgba(255, 255, 255, 0.50);
+display: flex;
+padding: 0px 8px;
+justify-content: center;
+align-items: center;
+height: fit-content;
+gap: 9px;
+}
+.footer .footer_menu a{
+  color: #262A2D;
+font-family: "Clash Display Variable";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.4px;
+text-transform: lowercase;
+}

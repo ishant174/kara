@@ -301,3 +301,8 @@
 .marquee {
   margin-top: 10rem;
 }
+@media only screen and (min-width: 900px) {
+.landing_img .IYANUAYO,.landing_img .Alexandra{
+  bottom: 7rem;
+}
+}

@@ -56,7 +56,7 @@ function Landing(props) {
 
         <div className="landing_img">
           <img src={allContent.userimg} />
-          <div className="img_name">
+          <div className={`img_name ${allContent.name}`}>
             <p>{allContent.name}</p>
             <small>(SHE/HER)</small>
           </div>
