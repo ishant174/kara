@@ -252,27 +252,27 @@
   }
 }
 
-.anim {
+.animation_region_pc .anim {
   max-height: 35px;
   overflow: hidden;
 
   padding-top: 0;
 }
 
-.hover_active{
+.animation_region_pc .hover_active{
   transform: translateY(-30px);
 }
-.inner_anim:hover {
+.animation_region_pc .inner_anim:hover {
   transform: translateY(-30px);
 }
 
-.inner_anim {
+.animation_region_pc .inner_anim {
   transition: transform 0.5s;
 }
-.anim:hover{
+.animation_region_pc .anim:hover{
   max-height: 40px;
 }
-.anim p {
+ .anim p {
   cursor: pointer;
   transition: transform 0.5s;
   margin: 10px 0;
@@ -298,4 +298,54 @@
 .landing_img .IYANUAYO,.landing_img .Alexandra{
   bottom: 7rem;
 }
+}
+
+
+
+.animation_region_mobile{
+  display: none;
+
+}
+.animation_region_mobile .special_hide{
+    background: url("../../Images/hide_bg.svg") no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+.animation_region_mobile .top_hide{
+  text-align: start;
+}
+
+.animation_region_mobile .special_hide{
+  display: none;
+}
+
+.animation_region_mobile .top_hide:hover ~  .special_hide{
+  display: flex;
+} 
+.animation_region_mobile .special_hide{
+  margin: 0;
+  margin-top: -5px;
+}
+.animation_region_mobile .top_hide{
+  position: relative;
+  display: flex;
+padding: 6px 8px;
+justify-content: space-between;
+align-items: center;
+gap: 8px;
+background: #F5F5F5;
+text-align: start;
+width: 205px;
+}
+.animation_region_mobile .special_hide span{
+  margin-top: 10px;
+}
+.animation_region_mobile .anim p{
+  height: auto;
 }

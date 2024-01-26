@@ -83,6 +83,7 @@ background: #DCD3FE;
     position: fixed;
     z-index: -1;
   left: 0;
+  bottom: 0;
 
         background: linear-gradient(184deg, #F5F5F5 16.55%, rgba(245, 245, 245, 0.00) 83.96%), url(https://s3-alpha-sig.figma.com/img/f647/60af/9971e777aa0372d8fecdfcf50bbb2913?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=paKXIVshVyETM54Ek6qA0M8CHhNSftqGD4nPuMRe5yUH-r~fnw6UiUphIJ8bqTrxx5C0PcdJHtk3I~BJD4UKcj9mHK~kSXuJUbEt4kZ-fHv1V5TEqctu2d7Gvr2R7TqWbpVjDtQS4G1dKj96yOasMCDwsQoUBBy0JMtVhHAqudDKNoK49idBawEJpRJoo4Agn-6LpkmZfJLKtPH9Ryidd28tMWu7A9Oe4RbfFLlowXDlnL05Ms7AUlj4oa39DrI6c6z2IyYi-a6WkHuRR7xH4JmfUcuPGXoGg8h77SPY748sjooEnAlk06dHWs6SDNMA44B9iFRGDRfbkFK7ULZVsA__), lightgray -670.521px -101px / 443.857% 115.577% no-repeat;
         background-position: bottom;
@@ -429,6 +430,12 @@ nav.active .menu-toggler span:nth-child(3) {
 }
 
 @media only screen and (max-width: 900px) {
+    .animation_region_pc{
+        display: none;
+    }
+    .animation_region_mobile{
+        display: block;
+    }
 
     nav .menus,.connect-btn
     {   

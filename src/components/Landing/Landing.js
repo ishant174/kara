@@ -2,9 +2,15 @@ import React from "react";
 import "./landing.css";
 import { useState } from "react";
 import girl from "../../Images/girl.png";
+import arrow from "../../Images/arrow-right.svg"
 function Landing(props) {
   // const { name } = props;
   const allContent = props.dynamicContent;
+  const [hideState, sethide] = useState(false);
+  function handelHide() {
+    sethide((hideState) => !hideState);
+  }
+  let checkHide = hideState ? "active" : null;
 
   const hashtags = allContent.hashtags.split(",");
   //   const generateCategory = () => {
@@ -23,7 +29,7 @@ function Landing(props) {
   //     return elements;
   //   };
   let contentss = allContent.heading.split("SPLIT")
-  
+
   return (
     <div id="landing_container">
       <div className="landing_innerContainer">
@@ -32,11 +38,11 @@ function Landing(props) {
             I’m <span className="special_heading">{props.name}</span>,<br />
             {/* {allContent.heading} */}
             {contentss[0]}
-            <br/>
+            <br />
             {contentss[1]}
-            <br/>
+            <br />
             {contentss[2]}
-          
+
           </h1>
           <div className="stand_box">
             <span className="border"></span>
@@ -47,18 +53,37 @@ function Landing(props) {
               ))}
             </div>
           </div>
-          <div className="animation_region">
+          <div className="animation_region animation_region_pc">
             {Object.entries(allContent.categories).map(
               ([key, value], index) => (
                 <div className="anim">
                   <div className="inner_anim">
-                    <p className="top_hide">{key}</p>
+                    <p className="top_hide" >{key}</p>
                     <p className="special_hide">{value}</p>
                   </div>
                 </div>
               )
             )}
           </div>
+
+          <div className="animation_region animation_region_mobile">
+            {Object.entries(allContent.categories).map(
+              ([key, value], index) => (
+                <div className="anim">
+                  <div className="inner_anim">
+                    <p className="top_hide" onClick={handelHide}>{key} <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="arrow-right-02">
+                        <path id="Vector" d="M20 12L3 12" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Vector_2" d="M15 17C15 17 20 13.3176 20 12C20 10.6824 15 7 15 7" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </g>
+                    </svg></span></p>
+                    <p  className="special_hide"><span>{value}</span></p>
+                  </div>
+                </div>
+              )
+            )}
+          </div>
+
         </div>
 
         <div className="landing_img">

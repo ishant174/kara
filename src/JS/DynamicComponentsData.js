@@ -9,7 +9,7 @@ let components = [
     uservideo: "https://lvpr.tv?v=33e86xt51h1f718x",
     categories: {
       Region: "Latin America",
-      "Web 3 Category": "Web3 Founder",
+      "Web3 Category": "Web3 Founder",
       "Organization Affiliations": "Web3 Founder",
       "Community Affiliations": "Crypto Female, Web 3 Ladies, Web 3 Kirgizstan",
     },
