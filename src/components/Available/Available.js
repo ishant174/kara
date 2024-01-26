@@ -53,12 +53,10 @@ function Available(props) {
       </div>
 
       <div className="aval_btn">
-        <a href="https://www.si3.space/">
-          <p>
-            This site has been built by Si3 in support of the decentralized and
-            democratized web.
-          </p>
-        </a>
+        <p>
+          This site has been built by <a href="https://www.si3.space/">Si3</a>{" "}
+          in support of the decentralized and democratized web.
+        </p>
       </div>
 
       <div className="footer">
@@ -138,7 +136,6 @@ function Available(props) {
             <a href={"mailto:" + allContent.contactEmail}>
               {allContent.contactEmail}
             </a>
-            
           </div>
         ) : (
           ""
