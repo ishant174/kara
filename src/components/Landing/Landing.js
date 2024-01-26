@@ -22,14 +22,21 @@ function Landing(props) {
   // }
   //     return elements;
   //   };
-
+  let contentss = allContent.heading.split("SPLIT")
+  
   return (
     <div id="landing_container">
       <div className="landing_innerContainer">
         <div className="landing_info">
           <h1 className="landing_heading">
             I’m <span className="special_heading">{props.name}</span>,<br />
-            {allContent.heading.replace(",", "")}
+            {/* {allContent.heading} */}
+            {contentss[0]}
+            <br/>
+            {contentss[1]}
+            <br/>
+            {contentss[2]}
+          
           </h1>
           <div className="stand_box">
             <span className="border"></span>

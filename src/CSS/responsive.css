@@ -70,8 +70,8 @@ background: #DCD3FE;
     .footer{
         border-top: none;
     }
-    .nav.active .nav_wrapper{
-        /* padding: 1rem 2rem; */
+    nav.active .connect-btn button{
+        width:30vw;
     }
    .nav.active .menus ul{
     margin-top: 1rem;
@@ -463,6 +463,8 @@ nav.active .menu-toggler span:nth-child(3) {
 
 }
 .marquee_outer_wrapper{
+    scale: 1.1;
+    transform: rotate(3.5deg);
     width: 100%;
     overflow: hidden;
 }

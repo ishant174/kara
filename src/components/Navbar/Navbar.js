@@ -38,7 +38,7 @@ function Navbar() {
             </div>
 
             <div className="connect-btn">
-                    <button>Connect Your Wallet</button>
+                    <button>Login</button>
             </div>
             <div className='menu-toggler' onClick={handelClick} >
               <span></span>

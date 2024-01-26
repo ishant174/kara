@@ -35,9 +35,9 @@ color: #0E1216;
 align-items: center;
 background: linear-gradient(149deg, #BAD4F8 18.77%, #F8F2FD 38.04%, #B8CFFA 56.49%, #DED0FF 78.26%);
     
-    display: flex;
+    /* display: flex; */
     transform: rotate(1.67deg);
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .avl_banner img{
 
@@ -214,7 +214,7 @@ div#connect {
     margin: 3rem 0;
   }
   .available_container .marquee .content {
-    animation: marquee 10s linear infinite;
+    animation: marquee 8s linear infinite;
     display: flex;
   }
   .avl_banner {
@@ -252,4 +252,12 @@ font-weight: 400;
 line-height: 30px; /* 150% */
 letter-spacing: 0.4px;
 text-transform: lowercase;
+}
+
+.available_container .marquee .content{
+  height: 100%;
+}
+.content img {
+  margin:auto;
+  padding:0 2rem;
 }

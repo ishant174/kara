@@ -185,9 +185,9 @@
   /* width: 100%; */
   /* height: 30px; */
   /* position: absolute; */
-  overflow: hidden;
+  /* overflow: hidden;
 
-  transform: rotate(3deg);
+  transform: rotate(3deg); */
   justify-content: flex-start;
   align-items: center;
   width: max-content;
@@ -204,19 +204,14 @@
   animation: marquee 0.5s linear infinite;
 }
 
-/* 
-@keyframes marquee {
-    0% { transform: translateX(0%); }
-    
-    100% { transform: translateX(-100%); }
-  } */
+
+
 .marquee {
-  transform: rotate(3deg);
   position: relative;
   width: 100vw;
   max-width: 100%;
   height: 200px;
-  overflow-x: hidden;
+
 }
 .marquee .content {
   animation: marquee 8s linear infinite;
@@ -234,7 +229,7 @@
 .track {
   position: absolute;
   white-space: nowrap;
-  will-change: transform;
+  /* will-change: transform; */
 
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -258,33 +253,31 @@
 }
 
 .anim {
-  max-height: 40px;
+  max-height: 35px;
   overflow: hidden;
 
   padding-top: 0;
 }
-/* .anim p:not(.special_heading):hover ~ p{
-    transform: translateY(-25px);
-}
-.anim p:not(.special_hide):hover {
-    transform: translateY(-25px);
-} */
+
 .hover_active{
-  transform: translateY(-28px);
+  transform: translateY(-30px);
 }
 .inner_anim:hover {
-  transform: translateY(-28px);
+  transform: translateY(-30px);
 }
 
 .inner_anim {
   transition: transform 0.5s;
+}
+.anim:hover{
+  max-height: 40px;
 }
 .anim p {
   cursor: pointer;
   transition: transform 0.5s;
   margin: 10px 0;
   text-align: left;
-  height: 17px;
+  height: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

@@ -21,8 +21,7 @@ function Available(props) {
             <h1>Advising</h1>
             <img src={eye} alt="" />
             <h1>Collabs</h1>
-            <img src={eye} alt="" />
-            <h1>speaking</h1>
+          
 
             <img src={eye} alt="" />
             <h1>speaking</h1>
@@ -30,13 +29,23 @@ function Available(props) {
             <h1>Advising</h1>
             <img src={eye} alt="" />
             <h1>Collabs</h1>
+            
+
             <img src={eye} alt="" />
             <h1>speaking</h1>
+            <img src={eye} alt="" />
+            <h1>Advising</h1>
+            <img src={eye} alt="" />
+            <h1>Collabs</h1>
+           
           </div>
 
           {/* </div> */}
         </div>
       </div>
+
+    
+
 
       <div className="avl_desc">
         <p>
@@ -55,7 +64,7 @@ function Available(props) {
       <div className="aval_btn">
         <a href="https://www.si3.space/">
           <p>
-            This site has been built by Si3 in support of the decentralized and
+            This site has been built by <a href="">Si3</a> in support of the decentralized and
             democratized web.
           </p>
         </a>
@@ -138,7 +147,7 @@ function Available(props) {
             <a href={"mailto:" + allContent.contactEmail}>
               {allContent.contactEmail}
             </a>
-            
+
           </div>
         ) : (
           ""

@@ -3,7 +3,7 @@ let components = [
     index: 1,
     title: "KARA",
     name: "Kara Howard",
-    heading: ", & I CREATE EQUITABLE PLATFORMS FOR THE NEW ECONOMY.",
+    heading: "& I CREATE EQUITABLE PLATFORMS SPLIT FOR THE SPLIT NEW ECONOMY.",
     hashtags: "COLLABORATION,EQUITY,IMPACT,DECENTRALIZATION,EDUCATION",
     userimg: "https://kara.siher.eth.limo/images/karafuture.png",
     uservideo: "https://lvpr.tv?v=33e86xt51h1f718x",
@@ -45,7 +45,7 @@ let components = [
     userimg: "https://iyanuayo.siher.eth.limo/images/karafuture.png",
     uservideo: "https://lvpr.tv/?v=412ay643rau61k9j",
     heading:
-      ", & I SHOW THE WORLD WHAT IS POSSIBLE BY BEING A CREATIVE TECHNOLOGY MULTI-POTENTIALITE ",
+      "& I SHOW THE WORLD WHAT IS POSSIBLE BY BEING A CREATIVE TECHNOLOGY MULTI-POTENTIALITE ",
     hashtags:
       "DECENTRALIZEDTECHNOLOGIES,MULTI-POTENTIAL,DATA,BUILDINGRELATIONSHIPS,NURTURINGLIVES",
     categories: {
@@ -81,7 +81,7 @@ let components = [
     name: "Aimara Garcia Cabezas",
     userimg: "https://nemerie0x.siher.eth.limo/images/karafuture.png",
     uservideo: "https://lvpr.tv?v=1aa3fhdo0grjzhxa",
-    heading: ", & I UNLEASH WEB3 NARRATIVES WITH A SOUL. ",
+    heading: "& I UNLEASH WEB3 NARRATIVES WITH A SOUL. ",
     hashtags: "AUTHENTICITY,INCLUSION,ACCESSIBILITY,WEB3HUMANCORE",
     categories: {
       Region: "Central America",
@@ -122,7 +122,7 @@ let components = [
     userimg: "https://alex.siher.eth.limo/images/karafuture.png",
     uservideo: "https://lvpr.tv?v=05ae6yokylvi8ati",
     heading:
-      ", & I BELIEVE IN HELPING WEB3's PROS, FUNDERS, & CONTRIBUTORS BUILD.",
+      "& I BELIEVE IN HELPING WEB3's PROS, FUNDERS, & CONTRIBUTORS BUILD.",
     hashtags:
       "DEMOCRATIZATION,COLLABORATION,TRANSPARENCY,OPEN-ACCESS,DECENTRALIZATION",
     categories: {
