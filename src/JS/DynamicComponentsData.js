@@ -35,7 +35,7 @@ let components = [
     },
     linkeninURL: "https://www.linkedin.com/in/decentralizing/",
     content: "Rendered Home Component",
-    contactEmail: "kara@si-her.live",
+    contactEmail: "kara@si3.space",
     url: "/",
   },
   {
